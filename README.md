@@ -1,21 +1,28 @@
-## Devlopr Jekyll Blog 
+## Devlopr Jekyll Template
 
-This repo is faster way to create your blog using the devlopr jekyll theme: 
+Use this template to create your own blog using the devlopr jekyll theme: 
 
-1. Clone this repo - 
+1. Create a new repo using the template for eg. myblog
+
+2. Clone your repo locally 
 
 ```
-git clone https://github.com/sujaykundu777/devlopr-starter.git
-cd devlopr-starter
+git clone https://github.com/yourusername/myblog.git
+cd myblog
 ```
 
 2. Open and Modify the _config.yml file - replace with your own details 
 
-3. Install dependencies
+3. Install dependencies 
 
 `bundle install`
 
 4. Run locally 
 
+Windows:
+
 `bundle exec jekyll serve`
 
+Linux: 
+
+`jekyll serve`
