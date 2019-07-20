@@ -3,7 +3,9 @@ layout: post
 title: "This post demonstrates post content styles"
 author: "John Doe"
 date: '2017-11-19 14:35:23 +0530'
-category: personal
+category: 
+      - personal
+      - work
 summary: My First Post
 thumbnail: posts/hello.jpg
 ---

@@ -1,4 +1,4 @@
 ---
 title: Contact Me
-layout: page
+layout: contact_me
 ---

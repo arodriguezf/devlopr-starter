@@ -1,0 +1,72 @@
+--- 
+layout: default 
+---
+
+    <div class="row">
+        <div class="col-lg-8">
+            <div class="card">
+                <h1 class="card-title">About Me</h1>
+                <p> {{ site.author_bio }} I also work as a freelancer</p>
+            </div>
+            <div class="card">
+                <h1 class="card-title"> Work Experience</h1>
+                <br />
+                <div class="row">
+                    <div class="col-md-2">
+                        <img src="/assets/img/work/google.png" class="company-logo" />
+                    </div>
+                    <div class="col-md-6">
+                        <h4 class="experience-title"> Full Stack Software Engineer</h4>
+                        <h6 class="experience-info">Google ( Jan 2017 - Present )</h6>
+                        <p class="experience-desc"> Worked on various technologies and built products which helps people globally </p>
+    
+                    </div>
+                </div>
+    
+                <br />
+                <div class="row">
+                    <div class="col-md-2">
+                        <img src="/assets/img/work/microsoft.png" class="company-logo" />
+                    </div>
+                    <div class="col-md-6">
+                        <h4 class="experience-title"> Front End Engineer</h4>
+                        <h6 class="experience-info">Microsoft ( Mar 2015 - Dec 2016 )</h6>
+                        <p class="experience-desc"> Worked on various technologies and built products which helps people globally </p>
+    
+                    </div>
+                </div>
+    
+    
+            </div>
+    
+        
+    
+        </div>
+        <div class="col-lg-4">
+    
+            <div class="card">
+    
+                <h6>
+                    <i class="fas fa-map-marker-alt"></i> {{ site.author_location }}</h6>
+                <h6>
+                    <i class="fas fa-envelope"></i> {{ site.author_email }}</h6>
+                <h6>
+                    <i class="fas fa-link"></i> {{ site.author_website_url }} </h6>
+    
+            </div>
+    
+            <div class="card">
+                <h1> Skills </h1>
+                <p> HTML , CSS , Javascript , PHP, Python, C</p>
+                <p> Adobe XD, Inkscape, Git, Linux </p>
+            </div>
+    
+            <div class="card">
+                <h1> Coding Activity </h1>
+    
+                {%- include coding_activity.html -%}
+    
+            </div>
+    
+        </div>
+        </div>

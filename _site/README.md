@@ -1,12 +1,23 @@
 ## Devlopr Jekyll Template
 
-Use this template to create your own blog using the devlopr jekyll theme: 
+Use this template to create your own blog using the devlopr jekyll theme:
 
-1. Create a new repo using the template for eg. myblog
+###### Recent Updates:
+
+Date : July 20, 2019 
+
+- Added Mailchimp Newsletters Widget
+- Formspree Contact Form
+- Added Wakatime Widget
+- New Layouts - Projects, About Me, Contact Me
+
+##### How to create a new devlopr jekyll blog
+
+1. Create a new repo using the **template** for eg. myblog
 
 2. Clone your repo locally 
 
-```
+```bash
 git clone https://github.com/yourusername/myblog.git
 cd myblog
 ```
@@ -36,3 +47,4 @@ Windows :
 Linux:
 
 `jekyll build`
+

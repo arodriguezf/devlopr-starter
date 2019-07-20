@@ -1,4 +1,4 @@
 ---
-layout: blog
-title: Blog
+title: About
+layout: about_me
 ---

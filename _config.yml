@@ -1,6 +1,6 @@
-title: devlopr jekyll # the title of your blog
+title: John Doe # the title of your blog
 
-subtitle: A Jekyll Theme built for Developers # subtitle of your blog
+subtitle: Full Stack Web Developer # subtitle of your blog
 
 description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
@@ -18,11 +18,11 @@ disqus_shortname: your-disqus-username   #for comments using disqus
 
 # Author details
 
-author: devlopr
-author_bio: Hello, my name is John Doe.I am an award winning Full Stack Web Developer and UI/UX Javascript specialist.Check out my blog articles, React.JS and Vue.JS UI components at the code laboratory.Feel free to take a look at my latest projects below.Based in London, UK. 
+author: John Doe
+author_bio: Hello, my name is John Doe.I am an award winning Full Stack Web Developer and UI/UX Javascript specialist.
 author_email: "john@devlopr.com"
 author_location: India
-author_website_url: "https://yourwebsite.com"
+author_website_url: "https://johndoe.com"
 
 # social links 
 twitter_username: yourusername
