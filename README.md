@@ -1,5 +1,13 @@
 ## Devlopr Jekyll Template
 
+![Screenshot 1](https://raw.githubusercontent.com/sujaykundu777/devlopr-starter/master/assets/img/screenshot1.png)
+
+![Screenshot 2](https://raw.githubusercontent.com/sujaykundu777/devlopr-starter/master/asset/img/screenshot2.png)
+
+![Screenshot 3](https://raw.githubusercontent.com/sujaykundu777/devlopr-starter/master/assets/img/screenshot3.png)
+
+![Screenshot 4](https://raw.githubusercontent.com/sujaykundu777/devlopr-starter/master/assets/img/screenshot4.png)
+
 Use this template to create your own blog using the devlopr jekyll theme: 
 
 1. Create a new repo using the template for eg. myblog
