@@ -36,6 +36,15 @@ telegram_username: yourusername
 dribbble_username: yourusername 
 flickr_username: yourusername
 
-
 # important to use devlopr theme 
 theme: devlopr
+
+exclude:
+  - README.md
+  - Rakefile
+  - Gemfile
+  - Gemfile.lock
+  - changelog.md
+  - "*.Rmd"
+  - vendor
+  - .travis.yml
