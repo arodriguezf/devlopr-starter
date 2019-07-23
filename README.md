@@ -23,24 +23,14 @@ cd myblog
 
 3. Install dependencies 
 
-`bundle install`
+   `bundle install`
 
 4. Run locally 
 
-Windows:
+    `bundle exec jekyll serve`
 
-`bundle exec jekyll serve`
+     You can visit the site at http://localhost:4000
 
-Linux: 
+5. Deploy your site to Github Pages 
 
-`jekyll serve`
-
-5. Build your site 
-
-Windows :
-
-`bundle exec jekyll build`
-
-Linux:
-
-`jekyll build`
+    (Guide coming soon)
