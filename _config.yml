@@ -1,5 +1,6 @@
-theme: devlopr  # Don't touch ( required for this theme)
+remote_theme: sujaykundu777/devlopr-jekyll  # Don't touch ( required for this theme)
 
+# Edit your preferences below 
 title: John Doe
 subtitle: Full Stack Web Developer
 description: >- # this means to ignore newlines until "baseurl:"
@@ -12,11 +13,11 @@ urls:
     - text: Blog
       url: /blog
     - text: About Me
-      url: /about/
+      url: /about
     - text: Contact Me
-      url : /contact/
+      url : /contact
     - text: Sample Page
-      url: /sample-page/
+      url: /sample-page
 
 # Edit these details 
 
@@ -99,6 +100,7 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-feed
+  - jekyll-remote-theme
   # - jekyll-archives
 
 # pagination of posts
@@ -113,7 +115,6 @@ compress_html:
   endings: all
   ignore:
     envs: ['development']
-
 
 # Archives
 # jekyll-archives:
