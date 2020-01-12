@@ -1,32 +1,55 @@
-remote_theme: sujaykundu777/devlopr-jekyll  # Don't touch ( required for this theme)
 
-# Edit your preferences below 
-title: John Doe
-subtitle: Full Stack Web Developer
-description: >- # this means to ignore newlines until "baseurl:"
-  John Doe uses devlopr-jekyll - a Jekyll Theme Built For Developers
+# Site Settings
 
-url: "http://localhost:4000" # the base hostname & protocol for your site, e.g. https://example.github.io
+title: Sujay Kundu  # Your Title 
+subtitle: Full Stack Web Developer 
+email: sujaykundu777@gmail.com  # Your Email
+description: >-  
+  Sujay Kundu is Web Developer and Blogger
 baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: xplor4r
+github_username:  sujaykundu777
+
+# Navigation 
 
 urls:
+    - text: About
+      url: /
     - text: Blog
       url: /blog
-    - text: About Me
-      url: /about
-    - text: Contact Me
-      url : /contact
+    - text: Shop
+      url : /shop
     - text: Sample Page
       url: /sample-page
+    - text: Contact Me
+      url : /contact
 
-# Edit these details 
+# Author Details
 
-author_logo: profile.png
-author: John Doe
-author_bio: Hi, My Name is John Doe. I love to Code and Design. devlopr-jekyll is a theme built for developers.  
-author_email: "johndoe@gmail.com"
+author_logo: profile.jpg
+author: Sujay Kundu
+author_bio: Hi, My Name is Sujay Kundu. I love to Code and Design. devlopr-jekyll is a theme built for developers.  
+author_email: "sujaykundu777@gmail.com"
 author_location: India
-author_website_url: "http://johndoe.com"
+author_website_url: "https://sujaykundu.com"
+
+# social links
+twitter_username: xplor4r
+github_username:  sujaykundu777
+facebook_username: sujay.kundu2
+linkedin_username: sujaykundu
+behance_username: sujaykundu
+instagram_username: xplor4r
+medium_username: sujaykundu
+telegram_username: sujaykundu
+dribbble_username: sujaykundu777
+flickr_username: sujaykundu777
+
+# Choose what to show ( true - display or false - don't display)
+show_author_work_experiences: true
+show_author_education_details: true
+show_author_project_details: true
 
 author_work_experiences: 
             - company_name: Google
@@ -61,19 +84,7 @@ author_project_details:
                 project_description: A Platform to easily find and read programming books
                 project_url: https://programmingebooks.com
                 visibility: true
-
-# social links
-twitter_username: johndoe
-github_username:  johndoe
-facebook_username: johndoe
-linkedin_username: johndoe
-behance_username: johndoe
-instagram_username: johndoe
-medium_username: johndoe
-telegram_username: johndoe
-dribbble_username: johndoe
-flickr_username: johndoe
-
+                
 #for comments using disqus
 disqus_shortname: sujay-kundu  
 
@@ -85,28 +96,19 @@ markdown: kramdown
 highlighter: rouge
 permalink: pretty
 
-# google analytics
-google_analytics: UA-46783401-10 
-
-# Choose what to show ( can be true or false)
-show_author_work_experiences: true
-show_author_education_details: true
-show_author_project_details: true
-
-# dont touch this unless required
-plugins:
-  - jekyll-paginate
-  - jekyll-gist
-  - jekyll-seo-tag
-  - jekyll-sitemap
-  - jekyll-feed
-  - jekyll-remote-theme
-  # - jekyll-archives
-
 # pagination of posts
-paginate: 8
-per_page: 4
+paginate: 4
+per_page: 5
 paginate_path: "/blog/page/:num/"
+
+# Search ( add algolia credentials below )
+algolia:
+  application_id: D9WA1YKTRS # add your algolia app id
+  index_name: blog_posts # You can replace that with whatever name you want
+  files_to_exclude: [] 
+  nodes_to_index: 'article' 
+  search_only_api_key: 58ffdd7cd6c45ec1577a7fcd789b1b9b # add algolia search only api key 
+
 
 # minify 
 compress_html:
@@ -116,12 +118,40 @@ compress_html:
   ignore:
     envs: ['development']
 
-# Archives
-# jekyll-archives:
-#   enabled:
-#     - categories
-#   layout: archive
-#   permalinks:
-#     category: '/category/:name/'
+# Shop 
+
+collections:
+ - products
+
+# Build settings
+
+theme: devlopr
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-gist
+  - jekyll-seo-tag
+  - jekyll-sitemap
 
 
+# Exclude from processing.
+# The following items will not be processed, by default.
+# Any item listed under the `exclude:` key here will be automatically added to
+# the internal "default list".
+#
+# Excluded items can be processed by explicitly listing the directories or
+# their entries' file path in the `include:` list.
+#
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+
+destination: ./build

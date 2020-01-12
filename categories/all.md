@@ -2,8 +2,7 @@
 layout: page
 permalink: /blog/categories/
 ---
- 
-
+ <!-- Show all categories -->
 <h3>  {{ page.title }} </h3>
 
 <div id="categories">
